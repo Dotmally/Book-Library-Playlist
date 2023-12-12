@@ -1,0 +1,139 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Adjust the background color if needed */
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%; /* Set a max-width for your container */
+}
+
+/* Since #recipes and .recipe are not used in the new layout, 
+   you can either remove them or comment them out. */
+
+h2 {
+    text-align: left; /* Align to the left to match the image */
+}
+
+/* Style the playlist table */
+#bookList-table {
+    width: 100%; /* Full width of its container */
+    border-collapse: collapse; /* Remove space between borders */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    color: #333; /* Dark gray text for readability */
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style the table headers */
+#bookList-table th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for headers */
+    text-align: left; /* Align text to the left */
+    padding: 12px 15px; /* Add space inside headers */
+}
+
+/* Style the table data cells */
+#bookList-table td {
+    border-bottom: 1px solid #ddd; /* Horizontal line between rows */
+    padding: 12px 15px; /* Add space inside cells */
+}
+
+/* Add hover effect to rows */
+#bookList-table tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Style the first column for emphasis */
+#bookList-table td:first-child {
+    font-weight: bold; /* Make the first column text bold */
+}
+
+/* Improve spacing and borders */
+#bookList-table tr {
+    border-bottom: 1px solid #e0e0e0; /* Add a subtle border to each row */
+}
+
+
+.wrapper {
+    text-align: center; /* Center align the wrapper contents */
+    margin-bottom: 20px; /* Add space below each section */
+}
+
+button {
+    height: 35px;
+    color: white;
+    background-color: #007bff; /* Primary color for the button */
+    border: none; /* Remove border */
+    padding: 5px 20px; /* Horizontal padding increased for better visual */
+    margin: 0 5px; /* Margin between buttons */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size for readability */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    outline: none; /* Remove outline to avoid focus border */
+}
+
+/* Hover and active state styling for the button */
+button:hover, button:active {
+    background-color: #0056b3; /* Slightly darker shade on hover/active */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 7px;
+    margin-right: 10px; /* Add space to the right of the input */
+    border: 1px solid #ddd; /* Add a light grey border */
+    width: calc(100% - 100px); /* Adjust width as needed */
+}
+
+/* Add styles for the search results area */
+#search-results-area {
+    margin-top: 20px; /* Add space above the search results area */
+}
+
+/* Style the search results div to match the image */
+#songs_div .song {
+    border: 1px solid grey;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/* Style for the song artwork images */
+.song img {
+    width: 50px; /* Set a fixed width for song images */
+    height: 50px; /* Set a fixed height for song images */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Adjust a tags if they are used in the new layout */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+/* Add additional styling if you have up/down arrows and minus buttons */
+.action-buttons {
+    display: inline-block; /* Align buttons in line */
+    margin-right: 10px; /* Add space between buttons and song title */
+}
+
+/* Style the add button in search results */
+.add-button {
+    background-color: #28a745; /* Green background for add button */
+    color: white;
+    padding: 5px 10px; /* Padding inside the button */
+    border: none; /* Remove border */
+    margin-right: 5px; /* Margin to the right of the button */
+    cursor: pointer; /* Change cursor on hover */
+}
